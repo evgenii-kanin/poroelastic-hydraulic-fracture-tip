@@ -11,6 +11,9 @@ poroelastic-hydraulic-fracture-tip/
 ├── data/
 │   ├── precomputed_integrals/
 │   └── precomputed_results/
+├── exports/
+│   ├── near_tip_results.html
+│   └── integral_precomputation.html
 ├── notebooks/
 │   ├── near_tip_results.ipynb
 │   └── integral_precomputation.ipynb
@@ -102,6 +105,9 @@ demonstrates the evaluation of the integral matrices used by the solver. It calc
 
 The numerical integration routines are implemented in `src/integration_utils.py`.
 
+## Static exported files
+
+The `exports/` folder contains static HTML versions of the notebooks, including their saved outputs, for convenient viewing without running Python or Jupyter. Download an HTML file and open it in a web browser.
 ## Installation
 
 Clone the repository:
